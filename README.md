@@ -1,94 +1,94 @@
-# DreamHouse React Native Mobile App
+# DreamHouse React Native モバイルアプリケーション
 
-React Native iOS implementation of the DreamHouse mobile app. DreamHouse is an end-to-end sample application that demonstrates how to build apps on the Salesforce platform. Visit the [DreamHouse Microsite](http://www.dreamhouseapp.io) for more information.
+DreamHouseモバイルアプリケーションのReact Native iOS 版の実装です。 DreamHouseはSalesforce PlatformでEnd-to-Endのアプリケーションを構築したデモアプリケーションです。 詳しくは [DreamHouseのサイト](http://dreamhouseappjp.io) をご覧下さい。
 
-This version of the application is built with React Native and the Salesforce Mobile SDK, including some new [experimental features](https://github.com/ForceDotComLabs/react.force.datacontainer) to generate parts of the UI using Salesforce metadata.
+このバージョンのアプリケーションはReact Native 及び Salesforce Mobile SDKを使い、 [experimental features](https://github.com/ForceDotComLabs/react.force.datacontainer) によってSalesforceメタデータからUIの一部分を生成して実装しています。
 
-This is an experimental project published under ForceDotComLabs, which means that:
+experimentalプロジェクトはForceDotComLabsの配下で進められていてますが。これは以下の意味を持ちます:
 
-1. It's work in progress
-1. We need your feedback
-1. Code contributions are welcome
+1. 現在開発中です
+1. 利用した際のフィードバックを求めています
+1. コードのコントリビューションを歓迎しています
 
-![iOS Screenshot](/README_files/screen2.png?raw=true)  ![iOS Screenshot](/README_files/screen1.png?raw=true)
+![iOS Screenshot](README_files/screen2.png?raw=true)  ![iOS Screenshot](README_files/screen1.png?raw=true)
 
-## TrailheaDX Presentation
+## TrailheaDX プレゼンテーション
 
-Watch the recording of the presentation delivered at the TrailheaDX conference:
+TrailheaDXカンファレンスで行われたプレゼンテーションの録画をぜひご覧ください:
 
 [![iOS Screenshot](tutorial_video/README_files/video2.png?raw=true)](https://www.youtube.com/watch?v=RY2vn2bT6XU)
 
-## Installation Instructions
+## インストール手順
 
-1. Follow [these instructions](http://dreamhouse-site.herokuapp.com/installation/) to install the Salesforce back-end.
+1. [these instructions](http://dreamhouse-site.herokuapp.com/installation/) に従いSalesforceのバックエンドをセットアップしてください。
 
-1. Clone this repository:
+1. このリポジトリをCloneします:
     ```
-    git clone https://github.com/ForceDotComLabs/dreamhouse-mobile-react
-    ```
-
-1. Navigate to the `dreamhouse-mobile-react` directory:
-    ```
-    cd dreamhouse-mobile-react
+    git clone https://github.com/dreamhouse-jp/dreamhousejp-mobile-react
     ```
 
-1. Install the npm dependencies:
+1.  `dreamhousejp-mobile-react` ディレクトリへ移動します:
+    ```
+    cd dreamhousejp-mobile-react
+    ```
+
+1. 依存パッケージをnpmからインストールします:
     ```
     npm install
     ```
 
-1. Install the cocoapods dependencies:
+1. 依存パッケージをcocoapodsからインストールします:
     ```
     pod install
     ```
 
-    If the `pod` command is not found, install cocoapods first:
+    もし `pod` コマンドが見当たらない場合は、最初に cocoapods をインストールしてください:
     ```
     sudo gem install cocoapods
     ```
 
-    If the installation of cocoapods fails, you may need to upgrade the version of ruby installed on your system.
+    もし cocoapods のインストールが失敗する場合には、 Rubyをシステムにインストールされているバージョンからアップグレードする必要があるかもしれません。
 
 
-1. Install [rnpm](http://facebook.github.io/react-native/releases/0.24/docs/linking-libraries-ios.html#automatic-linking) if it's not yet installed on your system:
+1. システムに[rnpm](http://facebook.github.io/react-native/releases/0.24/docs/linking-libraries-ios.html#automatic-linking) がない場合は、 [rnpm](http://facebook.github.io/react-native/releases/0.24/docs/linking-libraries-ios.html#automatic-linking) をインストールします:
     ```
     npm install rnpm -g
     ```
 
-1. Link dependencies:
+1. 依存性を解決します:
     ```
     rnpm link
     ```
 
-## Run in the iOS Emulator
+## iOS エミュレータ上で動作させる
 
-1. Type the following command to open the project workspace in Xcode:
+1. 以下のコマンドをタイプしてXcodeのワークスペースを開きます:
     ```
     open dreamhouse.xcworkspace
     ```
 
-1. Start the development server:
+1. 開発サーバ(React packager)をスタートします:
   ```
   npm start
   ```
 
-1. in Xcode, select a phone to emulate and click **Run**
+1. Xcode内で、エミューれたを選択して **Run** ボタンをクリックします
 
-## Run on Device
+## デバイス上で動作させる
 
-1. Start the development server:
+1. 開発サーバをスタートさせます:
   ```
   npm start
   ```
 
-1. In Xcode, select the **dreamhouse** project in the Project Navigator and select the **dreamhouse copy** target.
+1. Xcode上でプロジェクトナビゲーターから **dreamhouse** プロジェクトを選択し。 **dreamhouse copy** ターゲットを選択します。
 
     ![xcode](README_files/xcode_target.jpg)
 
-1. Specify a **Bundle Identifier** and a **Team** corresponding to a provisioning profile you created in the Apple Developer Portal.
+1. **Bundle Identifier** 及び **Team** をApple Developer Potalで作成したプロビジョニングプロファイルに設定します。
 
-1. Select your phone in the device selector in the toolbar, and click **Run**.
+1. ツールバー上のデバイスセレクターよりあなたの電話機を選択して **Run** をクリックします。
 
-## Step-By-Step Tutorial
+## ステップバイステップチュートリアル
 
-Follow [this step-by-step tutorial](/tutorial) to recreate the application from scratch.
+ [こちらのチュートリアル](/tutorial) に、アプリケーションをスクラッチから作成する手順が記載されています。
