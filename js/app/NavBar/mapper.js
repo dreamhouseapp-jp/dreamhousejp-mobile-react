@@ -22,31 +22,37 @@
  WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
  
-import React from 'react-native';
-const {
+import React from 'react';
+import {
     Text,
     View,
     TouchableOpacity
-} = React;
+} from 'react-native';
 
 import MenuButton from './MenuButton';
 import BackButton from './BackButton';
+import SearchButton from './SearchButton';
 import Title from './Title';
 
 import routes from '../routes';
 
 module.exports = (config) => ({
+
   LeftButton: (route, navigator, index, navState) => {
     if(index<1){
-      return <MenuButton onPress={config.onMenuOpen}/>;
+      return <MenuButton key='menu' onPress={config.onMenuOpen}/>;
     }
-    return <BackButton onPress={() => navigator.pop()}/>;
+    return <BackButton key='back' onPress={() => navigator.pop()}/>;
   },
   RightButton (route, navigator, index, navState) {
+    if(route.name === 'propertyList'){
+      return <SearchButton key='search' onPress={config.onSearchOpen} />;
+    }
     return null;
   },
   Title (route, navigator, index, navState) {
     const r = routes[route.name];
     return <Title label={r.label} />;
   }
+
 });

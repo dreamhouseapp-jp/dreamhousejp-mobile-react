@@ -5,24 +5,14 @@
 	};
 	objectVersion = 47;
 	objects = {
+
 /* Begin PBXBuildFile section */
-		02E37E28E528DD90AFBC849F /* libPods-dreamhouse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E606AE0C7CABF6DAF27DF3CC /* libPods-dreamhouse.a */; };
-		0566338B1D03DE160041B3B4 /* SalesforceDesignSystemIconsAction.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0224C7218E64D878376CA25 /* SalesforceDesignSystemIconsAction.ttf */; };
-		0566338C1D03DE160041B3B4 /* SalesforceDesignSystemIconsCustom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FA5C6EB9D4B9185D99A94 /* SalesforceDesignSystemIconsCustom.ttf */; };
-		0566338D1D03DE160041B3B4 /* SalesforceDesignSystemIconsStandard.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28EBFEB5239446C596705EEF /* SalesforceDesignSystemIconsStandard.ttf */; };
-		0566338E1D03DE160041B3B4 /* SalesforceDesignSystemIconsUtility.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAEB746FDDEF49409A049542 /* SalesforceDesignSystemIconsUtility.ttf */; };
-		0566338F1D03DE160041B3B4 /* SalesforceSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAB7429758EC40B2A9370F52 /* SalesforceSans-Bold.ttf */; };
-		056633901D03DE160041B3B4 /* SalesforceSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05CED4EADC74493F93525DFF /* SalesforceSans-Light.ttf */; };
-		056633911D03DE160041B3B4 /* SalesforceSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D695F6FCD7649FF83058D42 /* SalesforceSans-Regular.ttf */; };
-		056633931D03DE950041B3B4 /* libSalesforceBaseTheme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 055113D51D000DD8000142B5 /* libSalesforceBaseTheme.a */; };
-		05A4E0881CECF0D600199B05 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 05DF20AE1CECDC5C00D48CFC /* main.jsbundle */; };
-		05DF20921CECD85D00D48CFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D5EA51B6C0568005E64D4 /* AppDelegate.m */; };
-		05DF20931CECD85D00D48CFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D5EA21B6C0568005E64D4 /* main.m */; };
-		05DF20941CECD85D00D48CFC /* InitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F8D5EC71B6C0F94005E64D4 /* InitialViewController.m */; };
-		05DF20961CECD85D00D48CFC /* libPods-dreamhouse.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E606AE0C7CABF6DAF27DF3CC /* libPods-dreamhouse.a */; };
-		05DF20991CECD85D00D48CFC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8D5EAD1B6C0568005E64D4 /* Images.xcassets */; };
+		053932991D9DA13A0088DB99 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 053932981D9DA13A0088DB99 /* MapKit.framework */; };
 		05DF20AF1CECDC5C00D48CFC /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 05DF20AE1CECDC5C00D48CFC /* main.jsbundle */; };
 		05F7BE311CF4014A00057E91 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F7BE301CF4014A00057E91 /* logo.png */; };
+		29154D981DA31DD7005BACC5 /* dreamhouseSnapshotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29154D971DA31DD7005BACC5 /* dreamhouseSnapshotTests.m */; };
+		29154DA01DA3299A005BACC5 /* libRCTTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29154D671DA30316005BACC5 /* libRCTTest.a */; };
+		2E5B0E3914F04E23A3842945 /* License-for-SalesforceDesignSystemIcons.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E69811381C145568F0A425F /* License-for-SalesforceDesignSystemIcons.txt */; };
 		319016D963754A0781ADBB03 /* SalesforceSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D695F6FCD7649FF83058D42 /* SalesforceSans-Regular.ttf */; };
 		44062F4DEE7B494EBEB88AB8 /* SalesforceSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BAB7429758EC40B2A9370F52 /* SalesforceSans-Bold.ttf */; };
 		4BFF499CB7CD47DBB6B504C1 /* SalesforceSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 05CED4EADC74493F93525DFF /* SalesforceSans-Light.ttf */; };
@@ -35,9 +25,18 @@
 		81B3C34DD5994C36B98DF56A /* SalesforceDesignSystemIconsCustom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3D9FA5C6EB9D4B9185D99A94 /* SalesforceDesignSystemIconsCustom.ttf */; };
 		86B30DF90877446ABB7D35C1 /* libSalesforceBaseTheme.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4834ACB14DDD4B5A98AD0B47 /* libSalesforceBaseTheme.a */; };
 		D04BA5FC320E4DA78AD7F8FF /* SalesforceDesignSystemIconsUtility.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CAEB746FDDEF49409A049542 /* SalesforceDesignSystemIconsUtility.ttf */; };
+		D7A06E4E8DC940F8A25B67E7 /* License-for-SalesforceSans-font.txt in Resources */ = {isa = PBXBuildFile; fileRef = BA61F15E91F34924B9890A35 /* License-for-SalesforceSans-font.txt */; };
+		DB393C8BFFA84B3ABEB60CC9 /* libRNGeocoder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0767B54680AE48039E3963D9 /* libRNGeocoder.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		053932941D9D98840088DB99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4822AD07879346C78EAD1660 /* RNGeocoder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BF8FCF941BFFB184000FCD37;
+			remoteInfo = RNGeocoder;
+		};
 		055113D41D000DD8000142B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 116641095FE74BB0A4536A3D /* SalesforceBaseTheme.xcodeproj */;
@@ -45,17 +44,37 @@
 			remoteGlobalIDString = 05E4E6EC1CBDF7BE00899BCA;
 			remoteInfo = SalesforceBaseTheme;
 		};
+		29154D661DA30316005BACC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29154D621DA30316005BACC5 /* RCTTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 580C376F1AB104AF0015E709;
+			remoteInfo = RCTTest;
+		};
+		29154D9A1DA31DD7005BACC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F8D5E951B6C0568005E64D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F8D5E9C1B6C0568005E64D4;
+			remoteInfo = dreamhouse;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		053932981D9DA13A0088DB99 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		05CED4EADC74493F93525DFF /* SalesforceSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SalesforceSans-Light.ttf"; path = "node_modules/react.force.base.theme/Fonts/SalesforceSans-Light.ttf"; sourceTree = "<group>"; };
-		05DF20A61CECD85D00D48CFC /* dreamhouse copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dreamhouse copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		05DF20A71CECD85D00D48CFC /* dreamhouse copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "dreamhouse copy-Info.plist"; path = "/Users/ibogdanov/msdkdev/dreamhouse/dreamhouse copy-Info.plist"; sourceTree = "<absolute>"; };
 		05DF20AE1CECDC5C00D48CFC /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		05F7BE301CF4014A00057E91 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		0767B54680AE48039E3963D9 /* libRNGeocoder.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNGeocoder.a; sourceTree = "<group>"; };
 		116641095FE74BB0A4536A3D /* SalesforceBaseTheme.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = SalesforceBaseTheme.xcodeproj; path = node_modules/react.force.base.theme/ios/SalesforceBaseTheme/SalesforceBaseTheme.xcodeproj; sourceTree = "<group>"; };
 		28EBFEB5239446C596705EEF /* SalesforceDesignSystemIconsStandard.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SalesforceDesignSystemIconsStandard.ttf; path = node_modules/react.force.base.theme/Fonts/SalesforceDesignSystemIconsStandard.ttf; sourceTree = "<group>"; };
+		29154D621DA30316005BACC5 /* RCTTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTTest.xcodeproj; path = "node_modules/react-native/Libraries/RCTTest/RCTTest.xcodeproj"; sourceTree = "<group>"; };
+		29154D951DA31DD7005BACC5 /* dreamhouseSnapshotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dreamhouseSnapshotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		29154D971DA31DD7005BACC5 /* dreamhouseSnapshotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dreamhouseSnapshotTests.m; sourceTree = "<group>"; };
+		29154D991DA31DD7005BACC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D9FA5C6EB9D4B9185D99A94 /* SalesforceDesignSystemIconsCustom.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SalesforceDesignSystemIconsCustom.ttf; path = node_modules/react.force.base.theme/Fonts/SalesforceDesignSystemIconsCustom.ttf; sourceTree = "<group>"; };
+		3E69811381C145568F0A425F /* License-for-SalesforceDesignSystemIcons.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "License-for-SalesforceDesignSystemIcons.txt"; path = "node_modules/react.force.base.theme/Fonts/License-for-SalesforceDesignSystemIcons.txt"; sourceTree = "<group>"; };
+		4822AD07879346C78EAD1660 /* RNGeocoder.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGeocoder.xcodeproj; path = "node_modules/react-native-geocoder/ios/RNGeocoder.xcodeproj"; sourceTree = "<group>"; };
 		4834ACB14DDD4B5A98AD0B47 /* libSalesforceBaseTheme.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libSalesforceBaseTheme.a; sourceTree = "<group>"; };
 		4F8D5E9D1B6C0568005E64D4 /* dreamhouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dreamhouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F8D5EA11B6C0568005E64D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,22 +84,20 @@
 		4F8D5EAD1B6C0568005E64D4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4F8D5EC61B6C0F94005E64D4 /* InitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitialViewController.h; sourceTree = "<group>"; };
 		4F8D5EC71B6C0F94005E64D4 /* InitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitialViewController.m; sourceTree = "<group>"; };
-		641A79C6255C9F5C2DC614D8 /* Pods-dreamhouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dreamhouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-dreamhouse/Pods-dreamhouse.release.xcconfig"; sourceTree = "<group>"; };
+		678414276D1D0B9F820879ED /* Pods-dreamhouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dreamhouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-dreamhouse/Pods-dreamhouse.release.xcconfig"; sourceTree = "<group>"; };
+		79EC7C6332DA79B2368601F6 /* Pods-dreamhouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dreamhouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dreamhouse/Pods-dreamhouse.debug.xcconfig"; sourceTree = "<group>"; };
 		7D695F6FCD7649FF83058D42 /* SalesforceSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SalesforceSans-Regular.ttf"; path = "node_modules/react.force.base.theme/Fonts/SalesforceSans-Regular.ttf"; sourceTree = "<group>"; };
-		90400F35EE8FD2C6D3B8B7E7 /* Pods-dreamhouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dreamhouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dreamhouse/Pods-dreamhouse.debug.xcconfig"; sourceTree = "<group>"; };
 		B0224C7218E64D878376CA25 /* SalesforceDesignSystemIconsAction.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SalesforceDesignSystemIconsAction.ttf; path = node_modules/react.force.base.theme/Fonts/SalesforceDesignSystemIconsAction.ttf; sourceTree = "<group>"; };
+		BA61F15E91F34924B9890A35 /* License-for-SalesforceSans-font.txt */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "License-for-SalesforceSans-font.txt"; path = "node_modules/react.force.base.theme/Fonts/License-for-SalesforceSans-font.txt"; sourceTree = "<group>"; };
 		BAB7429758EC40B2A9370F52 /* SalesforceSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SalesforceSans-Bold.ttf"; path = "node_modules/react.force.base.theme/Fonts/SalesforceSans-Bold.ttf"; sourceTree = "<group>"; };
 		CAEB746FDDEF49409A049542 /* SalesforceDesignSystemIconsUtility.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SalesforceDesignSystemIconsUtility.ttf; path = node_modules/react.force.base.theme/Fonts/SalesforceDesignSystemIconsUtility.ttf; sourceTree = "<group>"; };
-		E606AE0C7CABF6DAF27DF3CC /* libPods-dreamhouse.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dreamhouse.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05DF20951CECD85D00D48CFC /* Frameworks */ = {
+		29154D921DA31DD7005BACC5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				056633931D03DE950041B3B4 /* libSalesforceBaseTheme.a in Frameworks */,
-				05DF20961CECD85D00D48CFC /* libPods-dreamhouse.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,14 +105,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02E37E28E528DD90AFBC849F /* libPods-dreamhouse.a in Frameworks */,
+				29154DA01DA3299A005BACC5 /* libRCTTest.a in Frameworks */,
 				86B30DF90877446ABB7D35C1 /* libSalesforceBaseTheme.a in Frameworks */,
+				053932991D9DA13A0088DB99 /* MapKit.framework in Frameworks */,
+				DB393C8BFFA84B3ABEB60CC9 /* libRNGeocoder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		053932911D9D98840088DB99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				053932951D9D98840088DB99 /* libRNGeocoder.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		055113D11D000DD8000142B5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -112,12 +139,21 @@
 			path = assets;
 			sourceTree = "<group>";
 		};
-		37B95F29A292887A2CC072C3 /* Frameworks */ = {
+		29154D631DA30316005BACC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E606AE0C7CABF6DAF27DF3CC /* libPods-dreamhouse.a */,
+				29154D671DA30316005BACC5 /* libRCTTest.a */,
 			);
-			name = Frameworks;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29154D961DA31DD7005BACC5 /* dreamhouseSnapshotTests */ = {
+			isa = PBXGroup;
+			children = (
+				29154D971DA31DD7005BACC5 /* dreamhouseSnapshotTests.m */,
+				29154D991DA31DD7005BACC5 /* Info.plist */,
+			);
+			path = dreamhouseSnapshotTests;
 			sourceTree = "<group>";
 		};
 		4F8D5E941B6C0568005E64D4 = {
@@ -125,12 +161,12 @@
 			children = (
 				05DF20AE1CECDC5C00D48CFC /* main.jsbundle */,
 				4F8D5E9F1B6C0568005E64D4 /* dreamhouse */,
+				29154D961DA31DD7005BACC5 /* dreamhouseSnapshotTests */,
 				4F8D5E9E1B6C0568005E64D4 /* Products */,
-				95FC818BCB0A26B1EC67A6D7 /* Pods */,
-				37B95F29A292887A2CC072C3 /* Frameworks */,
 				746047FD40DE4DEF81D36853 /* Libraries */,
 				799288BF02274A06900D14E7 /* Resources */,
-				05DF20A71CECD85D00D48CFC /* dreamhouse copy-Info.plist */,
+				AC6CE69D86AE0CAAA05B3965 /* Pods */,
+				D9A7B1696EA221A51AB2D138 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,7 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				4F8D5E9D1B6C0568005E64D4 /* dreamhouse.app */,
-				05DF20A61CECD85D00D48CFC /* dreamhouse copy.app */,
+				29154D951DA31DD7005BACC5 /* dreamhouseSnapshotTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,7 +212,9 @@
 		746047FD40DE4DEF81D36853 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				29154D621DA30316005BACC5 /* RCTTest.xcodeproj */,
 				116641095FE74BB0A4536A3D /* SalesforceBaseTheme.xcodeproj */,
+				4822AD07879346C78EAD1660 /* RNGeocoder.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -192,54 +230,64 @@
 				BAB7429758EC40B2A9370F52 /* SalesforceSans-Bold.ttf */,
 				05CED4EADC74493F93525DFF /* SalesforceSans-Light.ttf */,
 				7D695F6FCD7649FF83058D42 /* SalesforceSans-Regular.ttf */,
+				3E69811381C145568F0A425F /* License-for-SalesforceDesignSystemIcons.txt */,
+				BA61F15E91F34924B9890A35 /* License-for-SalesforceSans-font.txt */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		95FC818BCB0A26B1EC67A6D7 /* Pods */ = {
+		AC6CE69D86AE0CAAA05B3965 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				90400F35EE8FD2C6D3B8B7E7 /* Pods-dreamhouse.debug.xcconfig */,
-				641A79C6255C9F5C2DC614D8 /* Pods-dreamhouse.release.xcconfig */,
+				79EC7C6332DA79B2368601F6 /* Pods-dreamhouse.debug.xcconfig */,
+				678414276D1D0B9F820879ED /* Pods-dreamhouse.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9A7B1696EA221A51AB2D138 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				053932981D9DA13A0088DB99 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		05DF208F1CECD85D00D48CFC /* dreamhouse copy */ = {
+		29154D941DA31DD7005BACC5 /* dreamhouseSnapshotTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 05DF20A31CECD85D00D48CFC /* Build configuration list for PBXNativeTarget "dreamhouse copy" */;
+			buildConfigurationList = 29154D9C1DA31DD7005BACC5 /* Build configuration list for PBXNativeTarget "dreamhouseSnapshotTests" */;
 			buildPhases = (
-				05DF20AB1CECD8C200D48CFC /* ShellScript */,
-				05DF20901CECD85D00D48CFC /* Check Pods Manifest.lock */,
-				05DF20911CECD85D00D48CFC /* Sources */,
-				05DF20951CECD85D00D48CFC /* Frameworks */,
-				05DF20981CECD85D00D48CFC /* Resources */,
-				05DF20A11CECD85D00D48CFC /* Copy Pods Resources */,
-				05DF20A21CECD85D00D48CFC /* Embed Pods Frameworks */,
+				29154D911DA31DD7005BACC5 /* Sources */,
+				29154D921DA31DD7005BACC5 /* Frameworks */,
+				29154D931DA31DD7005BACC5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				29154D9B1DA31DD7005BACC5 /* PBXTargetDependency */,
 			);
-			name = "dreamhouse copy";
-			productName = dreamhouse;
-			productReference = 05DF20A61CECD85D00D48CFC /* dreamhouse copy.app */;
-			productType = "com.apple.product-type.application";
+			name = dreamhouseSnapshotTests;
+			productName = dreamhouseSnapshotTests;
+			productReference = 29154D951DA31DD7005BACC5 /* dreamhouseSnapshotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		4F8D5E9C1B6C0568005E64D4 /* dreamhouse */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F8D5EC01B6C0568005E64D4 /* Build configuration list for PBXNativeTarget "dreamhouse" */;
 			buildPhases = (
+				772B3DD937B7B36DFA9C8AFD /* [CP] Check Pods Manifest.lock */,
+				EB3DFA570DCEE9CB81DA4012 /* [CP] Check Pods Manifest.lock */,
 				05416DF21D0152B000516F58 /* ShellScript */,
-				39F115428CDB04A31C62D5B3 /* Check Pods Manifest.lock */,
 				4F8D5E991B6C0568005E64D4 /* Sources */,
 				4F8D5E9A1B6C0568005E64D4 /* Frameworks */,
 				4F8D5E9B1B6C0568005E64D4 /* Resources */,
-				E57672B616CE5ACD1EACF7C8 /* Copy Pods Resources */,
-				87235ADB19EC7B9E9072EDA6 /* Embed Pods Frameworks */,
+				EDA7F37187643E7CBA4DD29E /* [CP] Embed Pods Frameworks */,
+				0FA5100F29A2F7B95253BD06 /* [CP] Copy Pods Resources */,
+				C912798807E391418183508D /* 📦 Embed Pods Frameworks */,
+				AC78EAABFD1BA685D459D6E6 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -259,8 +307,18 @@
 				LastUpgradeCheck = 710;
 				ORGANIZATIONNAME = Salesforce;
 				TargetAttributes = {
+					29154D941DA31DD7005BACC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 4F8D5E9C1B6C0568005E64D4;
+					};
 					4F8D5E9C1B6C0568005E64D4 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8N45F6D9N6;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -277,6 +335,14 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
+					ProductGroup = 29154D631DA30316005BACC5 /* Products */;
+					ProjectRef = 29154D621DA30316005BACC5 /* RCTTest.xcodeproj */;
+				},
+				{
+					ProductGroup = 053932911D9D98840088DB99 /* Products */;
+					ProjectRef = 4822AD07879346C78EAD1660 /* RNGeocoder.xcodeproj */;
+				},
+				{
 					ProductGroup = 055113D11D000DD8000142B5 /* Products */;
 					ProjectRef = 116641095FE74BB0A4536A3D /* SalesforceBaseTheme.xcodeproj */;
 				},
@@ -284,12 +350,19 @@
 			projectRoot = "";
 			targets = (
 				4F8D5E9C1B6C0568005E64D4 /* dreamhouse */,
-				05DF208F1CECD85D00D48CFC /* dreamhouse copy */,
+				29154D941DA31DD7005BACC5 /* dreamhouseSnapshotTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		053932951D9D98840088DB99 /* libRNGeocoder.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNGeocoder.a;
+			remoteRef = 053932941D9D98840088DB99 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		055113D51D000DD8000142B5 /* libSalesforceBaseTheme.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -297,22 +370,20 @@
 			remoteRef = 055113D41D000DD8000142B5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		29154D671DA30316005BACC5 /* libRCTTest.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTTest.a;
+			remoteRef = 29154D661DA30316005BACC5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05DF20981CECD85D00D48CFC /* Resources */ = {
+		29154D931DA31DD7005BACC5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05DF20991CECD85D00D48CFC /* Images.xcassets in Resources */,
-				05A4E0881CECF0D600199B05 /* main.jsbundle in Resources */,
-				0566338E1D03DE160041B3B4 /* SalesforceDesignSystemIconsUtility.ttf in Resources */,
-				0566338D1D03DE160041B3B4 /* SalesforceDesignSystemIconsStandard.ttf in Resources */,
-				0566338F1D03DE160041B3B4 /* SalesforceSans-Bold.ttf in Resources */,
-				056633911D03DE160041B3B4 /* SalesforceSans-Regular.ttf in Resources */,
-				056633901D03DE160041B3B4 /* SalesforceSans-Light.ttf in Resources */,
-				0566338C1D03DE160041B3B4 /* SalesforceDesignSystemIconsCustom.ttf in Resources */,
-				0566338B1D03DE160041B3B4 /* SalesforceDesignSystemIconsAction.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +401,8 @@
 				44062F4DEE7B494EBEB88AB8 /* SalesforceSans-Bold.ttf in Resources */,
 				4BFF499CB7CD47DBB6B504C1 /* SalesforceSans-Light.ttf in Resources */,
 				319016D963754A0781ADBB03 /* SalesforceSans-Regular.ttf in Resources */,
+				2E5B0E3914F04E23A3842945 /* License-for-SalesforceDesignSystemIcons.txt in Resources */,
+				D7A06E4E8DC940F8A25B67E7 /* License-for-SalesforceSans-font.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,29 +422,14 @@
 			shellPath = /bin/sh;
 			shellScript = "curl http://localhost:8081/index.ios.bundle?dev=false -o main.jsbundle";
 		};
-		05DF20901CECD85D00D48CFC /* Check Pods Manifest.lock */ = {
+		0FA5100F29A2F7B95253BD06 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		05DF20A11CECD85D00D48CFC /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,14 +437,44 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dreamhouse/Pods-dreamhouse-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		05DF20A21CECD85D00D48CFC /* Embed Pods Frameworks */ = {
+		772B3DD937B7B36DFA9C8AFD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AC78EAABFD1BA685D459D6E6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dreamhouse/Pods-dreamhouse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C912798807E391418183508D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,27 +482,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dreamhouse/Pods-dreamhouse-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		05DF20AB1CECD8C200D48CFC /* ShellScript */ = {
+		EB3DFA570DCEE9CB81DA4012 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "curl http://localhost:8081/index.ios.bundle?dev=false -o main.jsbundle";
-		};
-		39F115428CDB04A31C62D5B3 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,46 +497,29 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		87235ADB19EC7B9E9072EDA6 /* Embed Pods Frameworks */ = {
+		EDA7F37187643E7CBA4DD29E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dreamhouse/Pods-dreamhouse-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E57672B616CE5ACD1EACF7C8 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dreamhouse/Pods-dreamhouse-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		05DF20911CECD85D00D48CFC /* Sources */ = {
+		29154D911DA31DD7005BACC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05DF20921CECD85D00D48CFC /* AppDelegate.m in Sources */,
-				05DF20931CECD85D00D48CFC /* main.m in Sources */,
-				05DF20941CECD85D00D48CFC /* InitialViewController.m in Sources */,
+				29154D981DA31DD7005BACC5 /* dreamhouseSnapshotTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,36 +535,55 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		29154D9B1DA31DD7005BACC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F8D5E9C1B6C0568005E64D4 /* dreamhouse */;
+			targetProxy = 29154D9A1DA31DD7005BACC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
-		05DF20A41CECD85D00D48CFC /* Debug */ = {
+		29154D9D1DA31DD7005BACC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90400F35EE8FD2C6D3B8B7E7 /* Pods-dreamhouse.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "dreamhouse copy-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"FB_REFERENCE_IMAGE_DIR=\"\\\"$(SOURCE_ROOT)/$(TARGET_NAME)/SnapshotRefImages\\\"\"",
 				);
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/node_modules/react-native/Libraries";
+				INFOPLIST_FILE = dreamhouseSnapshotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-Objc",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Salesforce.dreamhouseSnapshotTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dreamhouse.app/dreamhouse";
 			};
 			name = Debug;
 		};
-		05DF20A51CECD85D00D48CFC /* Release */ = {
+		29154D9E1DA31DD7005BACC5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 641A79C6255C9F5C2DC614D8 /* Pods-dreamhouse.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				INFOPLIST_FILE = "dreamhouse copy-Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/node_modules/react-native/Libraries";
+				INFOPLIST_FILE = dreamhouseSnapshotTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-lc++",
+					"-Objc",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = Salesforce.dreamhouseSnapshotTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dreamhouse.app/dreamhouse";
 			};
 			name = Release;
 		};
@@ -595,44 +672,112 @@
 		};
 		4F8D5EC11B6C0568005E64D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 90400F35EE8FD2C6D3B8B7E7 /* Pods-dreamhouse.debug.xcconfig */;
+			baseConfigurationReference = 79EC7C6332DA79B2368601F6 /* Pods-dreamhouse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8N45F6D9N6;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"$(inherited)",
+					"SQLITE_HAS_CODEC=1",
+				);
 				INFOPLIST_FILE = dreamhouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CocoaLumberjack\"",
+					"-l\"React\"",
+					"-l\"SQLCipher\"",
+					"-l\"SalesforceNetwork\"",
+					"-l\"SalesforceReact\"",
+					"-l\"SalesforceRestAPI\"",
+					"-l\"SalesforceSDKCore\"",
+					"-l\"SmartStore\"",
+					"-l\"SmartSync\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.msdk.dreamhouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		4F8D5EC21B6C0568005E64D4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 641A79C6255C9F5C2DC614D8 /* Pods-dreamhouse.release.xcconfig */;
+			baseConfigurationReference = 678414276D1D0B9F820879ED /* Pods-dreamhouse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8N45F6D9N6;
 				INFOPLIST_FILE = dreamhouse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"CocoaLumberjack\"",
+					"-l\"React\"",
+					"-l\"SQLCipher\"",
+					"-l\"SalesforceNetwork\"",
+					"-l\"SalesforceReact\"",
+					"-l\"SalesforceRestAPI\"",
+					"-l\"SalesforceSDKCore\"",
+					"-l\"SmartStore\"",
+					"-l\"SmartSync\"",
+					"-l\"stdc++\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.salesforce.msdk.dreamhouse;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		05DF20A31CECD85D00D48CFC /* Build configuration list for PBXNativeTarget "dreamhouse copy" */ = {
+		29154D9C1DA31DD7005BACC5 /* Build configuration list for PBXNativeTarget "dreamhouseSnapshotTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05DF20A41CECD85D00D48CFC /* Debug */,
-				05DF20A51CECD85D00D48CFC /* Release */,
+				29154D9D1DA31DD7005BACC5 /* Debug */,
+				29154D9E1DA31DD7005BACC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

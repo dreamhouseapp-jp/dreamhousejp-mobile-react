@@ -24,12 +24,13 @@
  
 'use strict';
 
-import React from 'react-native';
+import React from 'react';
 
-const {
+import {
     View,
     Image,
-} = React;
+    TouchableOpacity
+} from 'react-native';
 
 import Theme from 'react.force.base.theme';
 
@@ -37,16 +38,21 @@ import styles from './styles';
 
 module.exports = React.createClass({
 
+  _handlePress () {
+    if(this.props.onPress){
+      this.props.onPress();
+    }
+  },
+
   render () {
     return (
-      <View style={styles.header}>
+      <TouchableOpacity style={styles.header} onPress={this._handlePress}>
         <View style={styles.headerRow}>
           <Image style={styles.logo}
             source={require('image!logo')}
             resizeMode='contain' />
         </View>
-        <Theme.Text style={styles.title}>D R E A M H O U Z Z</Theme.Text>
-      </View>
+      </TouchableOpacity>
     );
   }
 });

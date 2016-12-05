@@ -24,19 +24,38 @@
  
 'use strict';
 
-import React from 'react-native';
+import React from 'react';
 
-import {ListContainer} from 'react.force.datacontainer';
+import {View,Text} from 'react-native';
+
+import { ListContainer } from 'react.force.datacontainer';
 
 import List from './List';
+
+import { oauth } from 'react.force';
 
 import styles from './styles';
 
 module.exports = React.createClass({
-    
+
+    getInitialState (){
+      return {
+        userId: null
+      };
+    },
+
+    componentDidMount(){
+      oauth.getAuthCredentials( creds => {
+        this.setState({
+          userId:creds.userId
+        });
+      });
+    },
+
     render () {
+      if(!this.state.userId) return <View />;
       return (
-        <ListContainer type='Favorite__c' fields={['Property__c']} style={styles.container} fullFetch={false}>
+        <ListContainer type='Favorite__c' fields={['Id','Property__c']} where={"User__c='"+this.state.userId+"'"} style={styles.container} fullFetch={false}>
           <List navigator={this.props.navigator} route={this.props.route} />
         </ListContainer>
       );

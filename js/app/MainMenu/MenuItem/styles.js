@@ -22,20 +22,36 @@
  WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
  
-'use strict';
 
-var React = require('react-native');
-var {
-    StyleSheet,
-} = React;
+import { StyleSheet, PixelRatio } from 'react-native';
 
 module.exports = StyleSheet.create({
   container: {
-      backgroundColor: 'white',
-      padding:10
+    backgroundColor: 'white',
+    margin:PixelRatio.get()*4,
+    marginLeft:PixelRatio.get()*7,
+    flex: 1,
+    flexDirection:'row',
+    justifyContent:'flex-start'
   },
-  image: {
-    width:20,
-    height:20
+  labelContainer:{
+    flex:1,
+    flexDirection:'column',
+    alignItems:'flex-start',
+    justifyContent:'center'
+  },
+  label:{
+//    fontSize: PixelRatio.get()*6,
+    fontSize: 17,
+    fontFamily: 'SalesforceSans-Light',
+    textAlign:'left',
+    paddingLeft:PixelRatio.get()*6,
+    backgroundColor:'transparent'
+  },
+  iconContainer:{
+    flex:0,
+    flexDirection:'column',
+    alignItems:'flex-start',
+    justifyContent:'center'
   }
 });

@@ -24,9 +24,9 @@
 
 'use strict';
 
-import React from 'react-native';
+import React from 'react';
 
-import {RelevantItems} from 'react.force.datacontainer';
+import {ListContainer} from 'react.force.datacontainer';
 
 import BrokerListItem from './ListItem';
 
@@ -37,9 +37,11 @@ import List from './List';
 module.exports = React.createClass({    
     render () {
       return (
-        <RelevantItems type='Broker__c' style={styles.container}>
+        <ListContainer 
+          type='Broker__c'
+          style={styles.container}>
           <List navigator={this.props.navigator} route={this.props.route} />
-        </RelevantItems>
+        </ListContainer>
       );
     }
 

@@ -24,12 +24,21 @@
 
 'use strict';
 
-import React from 'react-native';
+import { StyleSheet } from 'react-native';
 
-module.exports = React.StyleSheet.create({
+module.exports = StyleSheet.create({
   container: {
     flex: 1,
-    margin:1,
     backgroundColor: 'white'
-  }
+  },
+  searchBarInput: {
+    flex: 0,
+    fontSize: 18,
+    height: 40,
+    fontFamily: 'SalesforceSans-Regular',
+  },
+  icon: {
+    width: 24,
+    height: 24,
+  },
 });

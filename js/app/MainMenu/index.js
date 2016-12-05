@@ -24,23 +24,18 @@
  
 'use strict';
 
-import React from 'react-native';
-
-const {
+import React from 'react';
+import {
     ScrollView,
     Text,
     View,
-    Image,
-} = React;
-
+    Image
+} from 'react-native';
 import styles from './styles';
-
 import routes from '../routes';
-
+import MenuSection from './MenuSection';
 import MenuItem from './MenuItem';
-
 import Header from './Header';
-
 import {oauth} from 'react.force';
 
 module.exports = React.createClass({
@@ -58,6 +53,9 @@ module.exports = React.createClass({
   getMenuItems () {
     return routes.menu.map((menuItem,index)=>{
       const r = routes[menuItem];
+      if(r.menuType === 'sectionHeader'){
+        return <MenuSection key={'menu_'+index} label={r.label} />;
+      }
       return <MenuItem 
         key={'menu_'+index}
         navigator={this.props.navigator}
@@ -68,10 +66,16 @@ module.exports = React.createClass({
     });
   },
 
+  _handleLogoPress() {
+    if(this.props.onMenuPress){
+      this.props.onMenuPress({name:'welcome'});
+    }
+  },
+
   render () {
     return (
       <View style={styles.container}>
-        <Header />
+        <Header onPress={ this._handleLogoPress } />
         <ScrollView>
           { this.getMenuItems() }
         </ScrollView>

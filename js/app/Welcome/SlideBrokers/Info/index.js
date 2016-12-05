@@ -21,14 +21,35 @@
  WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY
  WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
- 
+
 'use strict';
 
-import React from 'react-native';
+import React from 'react';
+import {
+    View,
+    Text
+} from 'react-native';
 
-module.exports = React.StyleSheet.create({
-    container: {
-      marginTop:20,
-      marginBottom:20
+import SlideInFadeIn from '../../SlideInFadeIn';
+
+import styles from './styles';
+
+
+module.exports = React.createClass({    
+
+
+
+  render() {
+    if(!this.props.isOpen){
+      return <View />;
     }
+
+    return (
+      <SlideInFadeIn style={styles.container}>
+        <Text style={styles.text} numberOfLines={4} >
+          Select Brokers in the menu to connect with the best brokers in the business in a whole new way!
+        </Text>
+      </SlideInFadeIn>
+    );
+  },
 });

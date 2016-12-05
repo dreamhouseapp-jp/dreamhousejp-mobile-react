@@ -22,12 +22,10 @@
  WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
  
-'use strict';
-
-var React = require('react-native');
-var {
+import {
     StyleSheet,
-} = React;
+    PixelRatio,
+} from 'react-native'
 
 module.exports = StyleSheet.create({
   title: {
@@ -37,17 +35,18 @@ module.exports = StyleSheet.create({
   },
   header: {
     flex: 0,
-    height:90,
+    height:PixelRatio.get()*30,
   },
   headerRow: {
     flex: 0,
     flexDirection:'row',
     alignItems:'center',
     justifyContent:'center',
-    height:60,
+    height:PixelRatio.get()*30,
+    marginTop:PixelRatio.get()*4,
   },
   logo: {
-    width:60,
-    height:60
+    width:PixelRatio.get()*30,
+    height:PixelRatio.get()*30
   }
 });

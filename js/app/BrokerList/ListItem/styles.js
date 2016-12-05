@@ -24,13 +24,13 @@
 
 'use strict';
 
-import React from 'react-native';
+import { StyleSheet } from 'react-native';
 
-module.exports = React.StyleSheet.create({
+module.exports = StyleSheet.create({
     image: {
-        width:30,
-        height:30,
-        borderRadius:15,
+        width:40,
+        height:40,
+        borderRadius:20,
         backgroundColor: 'rgba(0, 0, 0, 0.1)'
     }
 });

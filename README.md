@@ -81,7 +81,7 @@ TrailheaDXカンファレンスで行われたプレゼンテーションの録�
   npm start
   ```
 
-1. Xcode上でプロジェクトナビゲーターから **dreamhouse** プロジェクトを選択し。 **dreamhouse copy** ターゲットを選択します。
+1. Xcode上でプロジェクトナビゲーターから **dreamhouse** プロジェクトを選択し。 **dreamhouse** ターゲットを選択します。
 
     ![xcode](README_files/xcode_target.jpg)
 
@@ -92,3 +92,20 @@ TrailheaDXカンファレンスで行われたプレゼンテーションの録�
 ## ステップバイステップチュートリアル
 
  [こちらのチュートリアル](/tutorial) に、アプリケーションをスクラッチから作成する手順が記載されています。
+
+## テスト
+
+このリポジトリには2つのタイプのテストサンプルが入っています : Mocha + Enzyme コンポーネントテスト 及び イメージ比較に基づくすスナップショットテスト。
+
+### Mocha + Enzyme テスト
+全てのテストは `__tests__` ディレクトリに格納され、特定のコンポーネントのテストは `componentname-enzymetest.js.` という命名規則に沿っています。現在は `PropertyList/ListItem` と `PropertyDetail/ActionBar` が実装されています。
+
+実行
+```
+npm run test
+```
+
+### スナップショットテスト
+スナップショットテストは Xcode から実行されます。 react-native packagerを Xcode > Product > Scheme > Edit Scheme から実行する必要があり、環境変数の `CI_USE_PACKAGER` に 1 をセットします。
+
+`dreamhouseSnapshotTests.m` ファイルを参考にしてください。コンポーネントは `js/testLib/snapshotTests` より使用されています。
