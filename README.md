@@ -20,7 +20,7 @@ TrailheaDXカンファレンスで行われたプレゼンテーションの録�
 
 ## インストール手順
 
-1. [these instructions](http://dreamhouse-site.herokuapp.com/installation/) に従いSalesforceのバックエンドをセットアップしてください。
+1. [インストール](http://dreamhouse-site.herokuapp.com/installation/) の手順に従いSalesforceのバックエンドをセットアップしてください。
 
 1. このリポジトリをCloneします:
     ```
